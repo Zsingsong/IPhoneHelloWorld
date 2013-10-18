@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "HellWorld/BIDViewController.h"
-         timestampString = "403707826.491102"
+         timestampString = "403755219.739712"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "15"
-         endingLineNumber = "15"
+         startingLineNumber = "21"
+         endingLineNumber = "21"
          landmarkName = "@interface BIDViewController"
          landmarkType = "2">
       </FileBreakpoint>
