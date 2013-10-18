@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5407A7A3180FD2B500E97B2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5407A7A2180FD2B500E97B2D /* UIKit.framework */; };
+		5407A7A5180FD2B500E97B2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5407A7A4180FD2B500E97B2D /* Foundation.framework */; };
+		5407A7A7180FD2B500E97B2D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5407A7A6180FD2B500E97B2D /* CoreGraphics.framework */; };
+		5407A7AD180FD2B500E97B2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5407A7AB180FD2B500E97B2D /* InfoPlist.strings */; };
+		5407A7AF180FD2B500E97B2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5407A7AE180FD2B500E97B2D /* main.m */; };
+		5407A7B3180FD2B500E97B2D /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5407A7B2180FD2B500E97B2D /* BIDAppDelegate.m */; };
+		5407A7B5180FD2B500E97B2D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5407A7B4180FD2B500E97B2D /* Default.png */; };
+		5407A7B7180FD2B500E97B2D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5407A7B6180FD2B500E97B2D /* Default@2x.png */; };
+		5407A7B9180FD2B500E97B2D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5407A7B8180FD2B500E97B2D /* Default-568h@2x.png */; };
+		5407A7BC180FD2B500E97B2D /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5407A7BB180FD2B500E97B2D /* BIDViewController.m */; };
+		5407A7BF180FD2B500E97B2D /* BIDViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5407A7BD180FD2B500E97B2D /* BIDViewController_iPhone.xib */; };
+		5407A7C2180FD2B500E97B2D /* BIDViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5407A7C0180FD2B500E97B2D /* BIDViewController_iPad.xib */; };
+		546C8C63180FF1650099494D /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 546C8C62180FF1650099494D /* dog.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5407A79F180FD2B500E97B2D /* HellWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HellWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5407A7A2180FD2B500E97B2D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5407A7A4180FD2B500E97B2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5407A7A6180FD2B500E97B2D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5407A7AA180FD2B500E97B2D /* HellWorld-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HellWorld-Info.plist"; sourceTree = "<group>"; };
+		5407A7AC180FD2B500E97B2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5407A7AE180FD2B500E97B2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5407A7B0180FD2B500E97B2D /* HellWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HellWorld-Prefix.pch"; sourceTree = "<group>"; };
+		5407A7B1180FD2B500E97B2D /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		5407A7B2180FD2B500E97B2D /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		5407A7B4180FD2B500E97B2D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5407A7B6180FD2B500E97B2D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5407A7B8180FD2B500E97B2D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5407A7BA180FD2B500E97B2D /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		5407A7BB180FD2B500E97B2D /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		5407A7BE180FD2B500E97B2D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController_iPhone.xib; sourceTree = "<group>"; };
+		5407A7C1180FD2B500E97B2D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController_iPad.xib; sourceTree = "<group>"; };
+		546C8C62180FF1650099494D /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dog.png; path = ../dog.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5407A79C180FD2B500E97B2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5407A7A3180FD2B500E97B2D /* UIKit.framework in Frameworks */,
+				5407A7A5180FD2B500E97B2D /* Foundation.framework in Frameworks */,
+				5407A7A7180FD2B500E97B2D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5407A796180FD2B500E97B2D = {
+			isa = PBXGroup;
+			children = (
+				5407A7A8180FD2B500E97B2D /* HellWorld */,
+				5407A7A1180FD2B500E97B2D /* Frameworks */,
+				5407A7A0180FD2B500E97B2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5407A7A0180FD2B500E97B2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5407A79F180FD2B500E97B2D /* HellWorld.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5407A7A1180FD2B500E97B2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5407A7A2180FD2B500E97B2D /* UIKit.framework */,
+				5407A7A4180FD2B500E97B2D /* Foundation.framework */,
+				5407A7A6180FD2B500E97B2D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5407A7A8180FD2B500E97B2D /* HellWorld */ = {
+			isa = PBXGroup;
+			children = (
+				5407A7B1180FD2B500E97B2D /* BIDAppDelegate.h */,
+				5407A7B2180FD2B500E97B2D /* BIDAppDelegate.m */,
+				5407A7BA180FD2B500E97B2D /* BIDViewController.h */,
+				5407A7BB180FD2B500E97B2D /* BIDViewController.m */,
+				5407A7BD180FD2B500E97B2D /* BIDViewController_iPhone.xib */,
+				5407A7C0180FD2B500E97B2D /* BIDViewController_iPad.xib */,
+				5407A7A9180FD2B500E97B2D /* Supporting Files */,
+			);
+			path = HellWorld;
+			sourceTree = "<group>";
+		};
+		5407A7A9180FD2B500E97B2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				546C8C62180FF1650099494D /* dog.png */,
+				5407A7AA180FD2B500E97B2D /* HellWorld-Info.plist */,
+				5407A7AB180FD2B500E97B2D /* InfoPlist.strings */,
+				5407A7AE180FD2B500E97B2D /* main.m */,
+				5407A7B0180FD2B500E97B2D /* HellWorld-Prefix.pch */,
+				5407A7B4180FD2B500E97B2D /* Default.png */,
+				5407A7B6180FD2B500E97B2D /* Default@2x.png */,
+				5407A7B8180FD2B500E97B2D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5407A79E180FD2B500E97B2D /* HellWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5407A7C5180FD2B500E97B2D /* Build configuration list for PBXNativeTarget "HellWorld" */;
+			buildPhases = (
+				5407A79B180FD2B500E97B2D /* Sources */,
+				5407A79C180FD2B500E97B2D /* Frameworks */,
+				5407A79D180FD2B500E97B2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HellWorld;
+			productName = HellWorld;
+			productReference = 5407A79F180FD2B500E97B2D /* HellWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5407A797180FD2B500E97B2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = singsong;
+			};
+			buildConfigurationList = 5407A79A180FD2B500E97B2D /* Build configuration list for PBXProject "HellWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5407A796180FD2B500E97B2D;
+			productRefGroup = 5407A7A0180FD2B500E97B2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5407A79E180FD2B500E97B2D /* HellWorld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5407A79D180FD2B500E97B2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5407A7AD180FD2B500E97B2D /* InfoPlist.strings in Resources */,
+				5407A7B5180FD2B500E97B2D /* Default.png in Resources */,
+				5407A7B7180FD2B500E97B2D /* Default@2x.png in Resources */,
+				5407A7B9180FD2B500E97B2D /* Default-568h@2x.png in Resources */,
+				5407A7BF180FD2B500E97B2D /* BIDViewController_iPhone.xib in Resources */,
+				5407A7C2180FD2B500E97B2D /* BIDViewController_iPad.xib in Resources */,
+				546C8C63180FF1650099494D /* dog.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5407A79B180FD2B500E97B2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5407A7AF180FD2B500E97B2D /* main.m in Sources */,
+				5407A7B3180FD2B500E97B2D /* BIDAppDelegate.m in Sources */,
+				5407A7BC180FD2B500E97B2D /* BIDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5407A7AB180FD2B500E97B2D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5407A7AC180FD2B500E97B2D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5407A7BD180FD2B500E97B2D /* BIDViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5407A7BE180FD2B500E97B2D /* en */,
+			);
+			name = BIDViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		5407A7C0180FD2B500E97B2D /* BIDViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5407A7C1180FD2B500E97B2D /* en */,
+			);
+			name = BIDViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5407A7C3180FD2B500E97B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5407A7C4180FD2B500E97B2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5407A7C6180FD2B500E97B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HellWorld/HellWorld-Prefix.pch";
+				INFOPLIST_FILE = "HellWorld/HellWorld-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5407A7C7180FD2B500E97B2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HellWorld/HellWorld-Prefix.pch";
+				INFOPLIST_FILE = "HellWorld/HellWorld-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5407A79A180FD2B500E97B2D /* Build configuration list for PBXProject "HellWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5407A7C3180FD2B500E97B2D /* Debug */,
+				5407A7C4180FD2B500E97B2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5407A7C5180FD2B500E97B2D /* Build configuration list for PBXNativeTarget "HellWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5407A7C6180FD2B500E97B2D /* Debug */,
+				5407A7C7180FD2B500E97B2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5407A797180FD2B500E97B2D /* Project object */;
+}
